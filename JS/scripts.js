@@ -8,17 +8,66 @@ const carritoTotal = document.querySelector(".carrito__total");
 const clearCarritoBtn = document.querySelector(".clear__carrito");
 const itemTotales = document.querySelector(".item__total");
 const detalles = document.getElementById('detalles');
-//MINUTO40!!!!!!1
+
 let carrito = [];
 let buttonDOM = [];
 
 class UI {
+
+    detalleProducto(id){
+        const filtroDato = productos.filter(item => item.id == id);
+        let result = ""
+        filtroDato.forEach(producto => {
+			result += `
+			<article class="detalle-grid">
+				<img src=${producto.image} alt="${producto.title}" class="img-fluid">
+				<div class="detalles-content">
+					<h3>${producto.title}</h3>
+					<div class="rating">
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bxs-star"></i>
+						</span>
+						<span>
+							<i class="bx bx-star"></i>
+						</span>
+					</div>
+						<p class="price"><b>Precio: </b> $${producto.price}</p>
+						<p class="description">
+							<b>Descripcion: </b> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae ad ex sint expedita perspiciatis odit eligendi! Et quia ex aperiam dolorum sunt omnis maiores. Repudiandae delectus iste exercitationem vel?</span>
+						</p>
+						<p class="description">
+							<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptates consequuntur in assumenda odit hic, aut cupiditate dolorem aspernatur! Quibusdam iusto magnam vero maxime quisquam voluptatibus minima aliquam molestias, iure ratione commodi, reiciendis quasi.</span>
+						</p>
+
+						<div class="bottom">
+							<div class="btn__group">
+								<button class="btn addToCart" data-id=${producto.id}>Añadir carrito</button>
+							</div>
+						</div>
+				</div>
+			</article>
+			`
+		});
+		detalles.innerHTML = result;
+    }
+
+
     renderProductos(productos){
         let result = ""
         productos.forEach((producto) =>{
             result += `
         <div class="producto">
-            <div class=${producto.image} alt="">
+            <div class="image__container">
+                <img src=${producto.image} alt="">
             </div>
             <div class="producto__footer">
                 <h1>${producto.title}</h1>
@@ -43,8 +92,8 @@ class UI {
             </div>
             <div class="bottom">
                 <div class="btn_group">
-                    <a href="#" class="btn addToCart" data-id=${producto.id}>Añadir al carrito</a>
-                    <a href="producto-detalles.html id=${producto.id}" class="btn view">Vista</a>
+                    <button class="btn addToCart" data-id=${producto.id}>Añadir al carrito</button>
+                    <a href="producto-detalles.html?id=${producto.id}" class="btn view">Vista</a>
                 </div>
             </div>
         </div>
@@ -186,7 +235,7 @@ class UI {
         cartItems.forEach(id => this.removeItem(id))
 
         while(carritoCenter.children.length > 0){
-            carritoCenter.removeItem(carritoCenter.children[0])
+            carritoCenter.removeChild(carritoCenter.children[0])
         }
     }
     removeItem(id){
@@ -205,7 +254,6 @@ class UI {
         return buttonDOM.find(button => parseInt(button.dataset.id) === id)
     }
 }
-
 
 class Storage {
     static saveProduct(obj){
@@ -235,17 +283,41 @@ class Productos {
         }
     }
 }
+let category = "";
+let productos = [];
 
-document.addEventListener("DOMContentLoaded", async () =>{
-    const productosLista = new Productos();
+function categoryValue(){
     const ui = new UI();
 
-    ui.setAPP()
+    category = document.getElementById("category").value 
+    if(category.length > 0){
+        const producto = productos.filter(regx => regx.category === category)
+        ui.renderProductos(producto)
+    }else{
+        ui.renderProductos(productos);
+    }
+} 
 
-    const productos = await productosLista.getProductos();
-    ui.renderProductos(productos);
-    Storage.saveProduct(productos)
-    ui.getButtons();
-    ui.cartLogic();
+const query = new URLSearchParams(window.location.search)
+let id = query.get('id')
 
+
+document.addEventListener("DOMContentLoaded", async () =>{
+	const productosLista = new Productos();
+	const ui = new UI();
+
+	ui.setAPP()
+
+	productos = await productosLista.getProductos()
+	if(id){
+		ui.detalleProducto(id)
+		Storage.saveProduct(productos)
+		ui.getButtons();
+		ui.cartLogic();
+	}else{
+		ui.renderProductos(productos)
+		Storage.saveProduct(productos)
+		ui.getButtons();
+		ui.cartLogic();
+	}
 })

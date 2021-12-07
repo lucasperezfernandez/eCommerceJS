@@ -93,7 +93,7 @@ class UI {
             <div class="bottom">
                 <div class="btn_group">
                     <button class="btn addToCart" data-id=${producto.id}>Añadir al carrito</button>
-                    <a href="producto-detalles.html?id=${producto.id}" class="btn view">Vista</a>
+                    <a href="producto-detalles.html?id=${producto.id}" class="btn view">Ver producto</a>
                 </div>
             </div>
         </div>

@@ -1,11 +1,12 @@
 /* listado de colores */
 
 :root{
+    --violetaClaro: #2c0055;
+    --violeta: #1e003a ;
+    --cyan: #4fdcff;
+    --rosa: #ff1cd8;
     --black: #222;
     --white: #fff;
-    --azul: #00063f;
-    --amarillo: #d3b717;
-    --rojo: #e71247;
 }
 *,
 *::before,
@@ -22,10 +23,12 @@ body{
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
-    color: var(--black);
-    background-color: var(--white);
+    color: var(--cyan);
+    background-color: var(--violetaClaro);
 }
-
+h1{
+    color: var(--rosa);
+}
 h2,
 h3,
 h4{
@@ -61,7 +64,7 @@ li{
     width: 100%;
     padding: 1.5rem 0;
     line-height: 1rem;
-    background: var(--black);
+    background: var(--violeta);
 }
 .nav__center{
     display: flex;
@@ -102,8 +105,8 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--rojo);
-    color: var(--white);
+    background-color: var(--rosa);
+    color: var(--violetaClaro);
     padding: .5rem;
     font-size: 1.5rem;
     font-weight: 700;
@@ -113,7 +116,7 @@ li{
 /* PRODUCTOS */
 .rating span{
     font-size: 2rem;
-    color: var(--amarillo);
+    color: var(--rosa);
 
 }
 .productos{
@@ -131,9 +134,13 @@ li{
     flex-direction: column;
     align-items: center;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .2);
+    background-color: var(--violeta);
 }
 .image__container img{
     width: 310px;
+    height: 400px;
+    object-fit: cover ;
+    margin: 5px;
 }
 .productos__footer{
     padding: 1rem;
@@ -156,18 +163,19 @@ li{
 }
 .btn{
     display: inline-block;
-    border: 1px solid gray;
+    border: 1px solid var(--violetaClaro);
     padding: 1rem 1.8rem;
-    color: var(--black);
+    color: var(--rosa);
     font-weight: 500;
     font-size: 1.7rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    background-color: var(--violetaClaro);
 }
 .btn:hover{
-    background-color: blue;
-    color: var(--white);
-    border: 1px solid blue;
+    background-color: var(--cyan);
+    color: var(--rosa);
+    border: 1px solid var(--rosa);
 }
 .price{
     font-weight: 700;
@@ -197,7 +205,7 @@ li{
     padding: 1.6rem ;
     border-radius: 2rem;
     overflow-x: scroll;
-    background-color: #f2f2f2;
+    background-color: var(--violetaClaro);
     opacity: 0; 
     visibility: hidden; 
     transform: all 300ms ease-in-out;
@@ -213,7 +221,7 @@ li{
 .carrito .close__carrito{
     font-size: 4.5rem;
     cursor: pointer;
-    color: var(--black);
+    color: var(--rosa);
     transform: all 300ms ease-in-out    ;
 }
 .carrito .close__carrito:hover{
@@ -221,11 +229,11 @@ li{
 }
 .carrito__item span{
     font-size: 2rem;
-    color: blue;
+    color: var(--cyan);
 }
 .carrito__item span{
     font-size: 2rem;
-    color: #ff1cd8;
+    color: var(--rosa);
 }
 .carrito h1{
     text-align: center;
@@ -256,13 +264,13 @@ li{
 
 }
 .carrito__item .price{
-    color: var(--amarillo);
+    color: var(--rosa);
     font-weight: 700;
 
 }
 .carrito__item .remove__item{
     cursor: pointer;
-    color: var(--rojo);
+    color: var(--rosa);
     font-size: 4rem;
 }
 .carrito__footer{
@@ -273,9 +281,10 @@ li{
     display: inline-block;
     padding: 1rem 3rem;
     font-size: 2rem;
-    background-color: orange;
+    background-color: var(--rosa);
     border: none;
     margin-top: 2rem;
+    color: var(--cyan);
     
 }
 .carrito__footer .btn:focus{
@@ -316,7 +325,7 @@ li{
 .filter label{
     font-size: 2.3rem;
     outline: 0;
-    color: #7e7a7a;
+    color: var(--rosa);
 }
 .filter input{
     border: none;
@@ -326,18 +335,23 @@ li{
     padding: 0 1rem;
     font-size: 1.6rem;
     font-weight: 500;
-    color: #7e7a7a;
+    background-color: var(--violetaClaro);
+    color: var(--rosa);
+
+
 }
 .filter .div{
-    box-shadow: 0 2px 5px 0pxp rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, .2);
     height: 40px;
     padding: .5rem 2rem;
+
 }
 .filter .category{
-    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 5px 0px black;
     display: flex;
     padding: 0 1rem;
     height: 40px;
+
 }
 .filter .category select{
     border: 0;
@@ -345,6 +359,8 @@ li{
     width: 100%;
     font-size: 1.6rem;
     color: #5a5858;
+    background-color: var(--violetaClaro);
+    color: var(--rosa);
 }
 @media (min-width: 768px){
     .filter .grid{

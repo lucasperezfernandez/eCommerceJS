@@ -23,23 +23,6 @@ class UI {
 				<img src=${producto.image} alt="${producto.title}" class="img-fluid">
 				<div class="detalles-content">
 					<h3>${producto.title}</h3>
-					<div class="rating">
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bx-star"></i>
-						</span>
-					</div>
 						<p class="price"><b>Precio: </b> $${producto.price}</p>
 						<p class="description">
 							<b>Descripcion: </b> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae ad ex sint expedita perspiciatis odit eligendi! Et quia ex aperiam dolorum sunt omnis maiores. Repudiandae delectus iste exercitationem vel?</span>
@@ -71,23 +54,6 @@ class UI {
             </div>
             <div class="producto__footer">
                 <h1>${producto.title}</h1>
-                <div class="rating">
-                    <span>
-                        <i class="bx bxs-star"></i>
-                    </span>
-                    <span>
-                        <i class="bx bxs-star"></i>
-                    </span>
-                    <span>
-                        <i class="bx bxs-star"></i>
-                    </span>
-                    <span>
-                        <i class="bx bxs-star"></i>
-                    </span>
-                    <span>
-                        <i class="bx bx-star"></i>
-                    </span>
-                </div>
                 <div class="price">$${producto.price}</div>
             </div>
             <div class="bottom">
@@ -253,6 +219,9 @@ class UI {
     singleButton(id){
         return buttonDOM.find(button => parseInt(button.dataset.id) === id)
     }
+}
+function compraCarrito(){
+    alert("Compra realizada con exito");
 }
 
 class Storage {

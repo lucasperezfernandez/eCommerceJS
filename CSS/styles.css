@@ -33,6 +33,7 @@ h2,
 h3,
 h4{
     font-weight: 400;
+    color: var(--rosa);
 }
 img{
     max-width: 100%;
@@ -139,7 +140,7 @@ li{
 .image__container img{
     width: 310px;
     height: 400px;
-    object-fit: cover ;
+    object-fit: contain;
     margin: 5px;
 }
 .productos__footer{

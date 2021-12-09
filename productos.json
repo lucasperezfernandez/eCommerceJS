@@ -3,174 +3,174 @@
     "items": [{
             "id": 1,
             "title": "PlayStation 5",
-            "price": 101,
-            "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
-            "category": "opcion1"
+            "price": 500,
+            "image":  "https://store.sony.com.ar/arquivos/menu-ps5.png?v=637300051469000000",
+            "category": "consolas"
         },
         {
             "id": 2,
-            "title": "OMEGA Speedmaster",
-            "price": 104,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305",
-            "category": "omega"
+            "title": "PlayStation 4",
+            "price": 300,
+            "image": "http://assets.stickpng.com/images/585ea27bcb11b227491c350b.png",
+            "category": "consolas"
         },
         {
             "id": 3,
-            "title": "AUDEMARS PIGUET",
-            "price": 75,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1177-wugpfdlkkz5ie2od4y1w8rlm-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "PlayStation 3",
+            "price": 100,
+            "image": "http://assets.stickpng.com/images/585ea071cb11b227491c3505.png",
+            "category": "consolas"
         },
         {
             "id": 4,
-            "title": "HUBLOT Big Bang",
-            "price": 99,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1065-ae2seivfjwbgqxgobd7rimxu-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "Nintendo Switch",
+            "price": 350,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nintendo-Switch-wJoyCons-BlRd-Standing-FL.png/1280px-Nintendo-Switch-wJoyCons-BlRd-Standing-FL.png",
+            "category": "consolas"
         },
         {
             "id": 5,
-            "title": "ROLEX Day-Date",
-            "price": 105,
-            "image": "https://cdn4.chrono24.com/images/topmodels/48-coj40rpfx8fwxs9h0nl1l5z5-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "Xbox Series S",
+            "price": 450,
+            "image": "https://res-4.cloudinary.com/grover/image/upload/e_trim/c_limit,f_auto,fl_png8.lossy,h_1280,q_auto,w_1280/v1599666268/vvna09tuxefif8kwhi9a.png",
+            "category": "consolas"
 
         },
         {
             "id": 6,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 85,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1023-knl4kmo66jmse324vzq1rit9-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "Xbox 360",
+            "price": 200,
+            "image": "http://assets.stickpng.com/images/585ea2a8cb11b227491c350d.png",
+            "category": "consolas"
 
         },
         {
             "id": 7,
-            "title": "Roles Datejust",
-            "price": 60,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2889-i234z41cn7v0n4vanfhte4w4-Original.png?auto=compress&amp;h=305",
-            "category": "rolex"
+            "title": "Amazon echo dot (3gen)",
+            "price": 300,
+            "image": "http://assets.stickpng.com/images/5eb156a174bb7d0004ae61b6.png",
+            "category": "parlantes"
         },
         {
             "id": 8,
-            "title": "OMEGA Speedmaster",
-            "price": 35,
-            "image": "https://cdn4.chrono24.com/images/topmodels/277-q51jko3qp053cwsfydfnmp8r-Original.png?auto=compress&amp;h=305",
-            "category": "omega"
+            "title": "Google Home",
+            "price": 275,
+            "image": "http://assets.stickpng.com/images/5871217338315b0eebc1da25.png",
+            "category": "parlantes"
         },
         {
             "id": 9,
-            "title": "AUDEMARS PIGUET",
-            "price": 799,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2784-sol59z6xc26pvisg1s4yyhz7-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "Bose Soundlink",
+            "price": 220,
+            "image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/speakers/soundlink_mini_ii/product_silo_images/soundlink_mini_II_carbon_EC.psd/jcr:content/renditions/cq5dam.web.320.320.png",
+            "category": "parlantes"
         },
         {
             "id": 10,
-            "title": "HUBLOT Big Bang",
-            "price": 101,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1060-60mnke18crk8dtva1dday8aq-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "JBL Flip 5",
+            "price": 280,
+            "image": "https://www.jbl.es/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwf4187a12/JBL_Flip5_Product%20Photo_Side_MidnightBlack-1605x1605-DS3.png?sw=537&sfrm=png",
+            "category": "parlantes"
         },
         {
             "id": 11,
-            "title": "ROLEX Day-Date",
-            "price": 650,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2789-kz9cslhfzhl5hluyhyik13vh-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "ASUS zenbook 14 UX425",
+            "price": 900,
+            "image": "https://dlcdnwebimgs.asus.com/gain/35665ff7-8414-487d-b19e-ceaaf51b1e7d/w800",
+            "category": "notebooks"
         },
         {
             "id": 12,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 65,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1024-kun413lxk7kb6xba9sow5f81-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "MacBook pro 13",
+            "price": 1200,
+            "image": "https://cdn.pixabay.com/photo/2020/06/26/12/21/macbook-pro-5342546_1280.png",
+            "category": "notebooks"
         },
         {
             "id": 13,
-            "title": "Roles Datejust",
-            "price": 101,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2827-syc8dandfne5fr49dsnu9oai-Original.png?auto=compress&amp;h=305",
-            "category": "rolex"
+            "title": "MacBook air 13",
+            "price": 900,
+            "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png",
+            "category": "notebooks"
         },
         {
             "id": 14,
-            "title": "OMEGA Speedmaster",
-            "price": 104,
-            "image": "https://cdn4.chrono24.com/images/topmodels/71-js248idvdav3retnmx2uc6wx-Original.png?auto=compress&amp;h=305",
-            "category": "omega"
+            "title": "HP Omen",
+            "price": 800,
+            "image": "https://www.hp.com/mx/es/images/02_hero_r1_700x500_tcm230_2638293_tcm230_2638346_tcm230-2638293.png",
+            "category": "notebooks"
         },
         {
             "id": 15,
-            "title": "AUDEMARS PIGUET",
-            "price": 75,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1176-hs3tqa0p4c96tsxn2cn2uo6w-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "Lenovo Thinkbook",
+            "price": 650,
+            "image": "https://www.lenovo.com/medias/lenovo-laptops-thinkbook-series-14s-hero.png?context=bWFzdGVyfHJvb3R8OTE1OTF8aW1hZ2UvcG5nfGg5Yi9oM2IvMTExNDA0NzA0MDcxOTgucG5nfGUxZDVkNjkwZmFlODFlM2VhZTc3YjEyY2NmMjljYTMwZjVjNDk2NDIzMmM3NzU0Yjk3NGJiNzIzY2NlYjczM2E",
+            "category": "notebooks"
         },
         {
             "id": 16,
-            "title": "HUBLOT Big Bang",
-            "price": 99,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1058-1jormktv8artxf3enlapuh13-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "Lenovo Yoga",
+            "price": 400,
+            "image": "https://www.lenovo.com/medias/lenovo-laptop-yoga-710-14-hero.png?context=bWFzdGVyfHJvb3R8NjA1NDd8aW1hZ2UvcG5nfGgyNC9oZTQvOTQ1MjE3NzQyNDQxNC5wbmd8MDIwNmM0NGQ3ZWNjNGMzMGY0NmViZmVmYjA1MzE5YWE1ZDA1NGIwYjU5MmIwYmFkNzZmYWMzZTA3ZDQwMzMzNA",
+            "category": "notebooks"
         },
         {
             "id": 17,
-            "title": "ROLEX Day-Date",
-            "price": 105,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2884-5ef4thk0sttcydmk5692nply-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "Dell Inspiron 15",
+            "price": 750,
+            "image": "https://i.dell.com/is/image/DellContent//content/dam/global-asset-library/Products/Notebooks/Inspiron/15_3501_non-touch/in3501nt_cnb_00055lf110_bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=647&qlt=100,0&resMode=sharp2&size=647,402",
+            "category": "notebooks"
 
         },
         {
             "id": 18,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 85,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1024-kun413lxk7kb6xba9sow5f81-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "Logitech G435",
+            "price": 200,
+            "image": "https://resource.logitechg.com/content/dam/gaming/en/products/g435/swatches/g435-gaming-headset-gallery-1-black.png",
+            "category": "perifericos"
 
         },
         {
-            "id": 19,
-            "title": "Roles Datejust",
+            "id": 100,
+            "title": "Logitech G335",
             "price": 60,
-            "image": "https://cdn4.chrono24.com/images/topmodels/53-qr7rjp3uwl4jco6w9zezewr6-Original.png?auto=compress&amp;h=305",
-            "category": "rolex"
+            "image": "https://resource.logitechg.com/w_659,c_limit,f_auto,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/g335/g335-black-gallery-1.png?v=1",
+            "category": "perifericos"
         },
         {
             "id": 20,
-            "title": "OMEGA Speedmaster",
-            "price": 35,
-            "image": "https://cdn4.chrono24.com/images/topmodels/242-uk37he1f5vgdtk9unr5570ct-Original.png?auto=compress&amp;h=3055",
-            "category": "omega"
+            "title": "logitech G305",
+            "price": 80,
+            "image": "https://www.logitechg.com/content/dam/products/gaming/gaming-mice/g305-lightspeed-wireless-gaming-mouse/g304-g305-lightspeed-wireless-gaming-mouse21.png",
+            "category": "perifericos"
         },
         {
             "id": 21,
-            "title": "AUDEMARS PIGUET",
-            "price": 99,
-            "image": "https://cdn4.chrono24.com/images/topmodels/118-6lbsu9lmivq8w0y0nqrk5j45-Original.png?auto=compress&amp;h=305",
-            "category": "audemars"
+            "title": "Red Dragon Teclado 60%",
+            "price": 95,
+            "image": "https://redragon.es/content/uploads/2021/07/DRAGONBORN.png",
+            "category": "perifericos"
         },
         {
             "id": 22,
-            "title": "HUBLOT Big Bang",
-            "price": 101,
-            "image": "https://cdn4.chrono24.com/images/topmodels/1060-60mnke18crk8dtva1dday8aq-Original.png?auto=compress&amp;h=305",
-            "category": "hublot"
+            "title": "Red Dragon Teclado 80%",
+            "price": 75,
+            "image": "http://d2r9epyceweg5n.cloudfront.net/stores/001/418/967/products/redragon-k522rgb-kumara-white-11-aacca7e8bfdefa5db316138599907615-640-0.png",
+            "category": "perifericos"
         },
         {
             "id": 23,
-            "title": "ROLEX Day-Date",
-            "price": 65,
-            "image": "https://cdn4.chrono24.com/images/topmodels/954-oel0a5omxgsfsc717gx0p1na-Original.png?auto=compress&amp;h=305",
-            "category": "rolexDay"
+            "title": "Keychron 65%",
+            "price": 185,
+            "image": "https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-6fee5ffe--20213516269.jpg?v=1614933099",
+            "category": "perifericos"
         },
         {
             "id": 24,
-            "title": "TAG HEUER Carrera Calibre",
-            "price": 65,
-            "image": "https://cdn4.chrono24.com/images/topmodels/2848-rrxe8hk918f7plrrfgzbxt65-Original.png?auto=compress&amp;h=305",
-            "category": "tag"
+            "title": "Red Dragon teclado 100%",
+            "price": 80,
+            "image": "https://cdn.shopify.com/s/files/1/2695/9506/products/Bluetooth2.4GhzWiredUltra-ThinLowProfileGamingKeyboard_450x450.png?v=1626334705",
+            "category": "perifericos"
         }
     ]
 }

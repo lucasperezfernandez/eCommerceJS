@@ -22,7 +22,7 @@ class UI {
 			<article class="detalle-grid">
 				<img src=${producto.image} alt="${producto.title}" class="img-fluid">
 				<div class="detalles-content">
-					<h3>${producto.title}</h3>
+					<h3 class="detalles-title">${producto.title}</h3>
 						<p class="price"><b>Precio: </b> $${producto.price}</p>
 						<p class="description">
 							<b>Descripcion: </b> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae ad ex sint expedita perspiciatis odit eligendi! Et quia ex aperiam dolorum sunt omnis maiores. Repudiandae delectus iste exercitationem vel?</span>

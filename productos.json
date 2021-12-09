@@ -11,14 +11,14 @@
             "id": 2,
             "title": "PlayStation 4",
             "price": 300,
-            "image": "http://assets.stickpng.com/images/585ea27bcb11b227491c350b.png",
+            "image": "http://assets.stickpng.com/thumbs/585ea27bcb11b227491c350b.png",
             "category": "consolas"
         },
         {
             "id": 3,
             "title": "PlayStation 3",
             "price": 100,
-            "image": "http://assets.stickpng.com/images/585ea071cb11b227491c3505.png",
+            "image": "http://assets.stickpng.com/thumbs/585ea071cb11b227491c3505.png",
             "category": "consolas"
         },
         {
@@ -40,15 +40,15 @@
             "id": 6,
             "title": "Xbox 360",
             "price": 200,
-            "image": "http://assets.stickpng.com/images/585ea2a8cb11b227491c350d.png",
+            "image": "http://assets.stickpng.com/thumbs/585ea2a8cb11b227491c350d.png",
             "category": "consolas"
 
         },
         {
             "id": 7,
-            "title": "Amazon echo dot (3gen)",
+            "title": "Amazon echo dot",
             "price": 300,
-            "image": "http://assets.stickpng.com/images/5eb156a174bb7d0004ae61b6.png",
+            "image": "http://assets.stickpng.com/thumbs/5871218438315b0eebc1da27.png",
             "category": "parlantes"
         },
         {

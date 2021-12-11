@@ -59,6 +59,7 @@ li{
 /* NAV */
 .nav{
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -111,6 +112,25 @@ li{
     font-size: 1.5rem;
     font-weight: 700;
     border-radius: 50%;
+}
+
+/* carrusel */
+.carousel-item img{
+    height: 800px;
+    object-fit: cover;
+}
+.carousel-subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo{
+    text-align: center;
+    padding: 5%;
+}
+.subtitulo-img{
+    width: 600px;
 }
 
 /* PRODUCTOS */
@@ -374,7 +394,7 @@ li{
 
 /*Detalles*/
 .detalles{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     padding-top: 15rem;
@@ -429,4 +449,8 @@ li{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.footerRedes a i{
+    color: var(--rosa);
+    margin: 5%;
 }

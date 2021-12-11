@@ -221,7 +221,8 @@ class UI {
     }
 }
 function compraCarrito(){
-    alert("Compra realizada con exito");
+    alert("Será redirigido a MercadoPago");
+    
 }
 
 class Storage {

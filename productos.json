@@ -11,7 +11,7 @@
             "id": 2,
             "title": "PlayStation 4",
             "price": 300,
-            "image": "http://assets.stickpng.com/images/585ea27bcb11b227491c350b.png",
+            "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-pro-console-02-en-26oct18?$facebook$",
             "category": "consolas"
         },
         {
@@ -40,7 +40,7 @@
             "id": 6,
             "title": "Xbox 360",
             "price": 200,
-            "image": "http://assets.stickpng.com/images/585ea2a8cb11b227491c350d.png",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Xbox_360_S.png",
             "category": "consolas"
 
         },
@@ -55,7 +55,7 @@
             "id": 8,
             "title": "Google Home",
             "price": 275,
-            "image": "http://assets.stickpng.com/thumbs/5871217338315b0eebc1da25.png",
+            "image": "http://catalogo.claro.com.ec/uploads/imgs/productos/google-home-mini/blanco/zoom/01-google-home-mini-blanco-front.png",
             "category": "parlantes"
         },
         {

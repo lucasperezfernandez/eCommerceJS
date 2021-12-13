@@ -73,9 +73,8 @@ li{
     align-items: center;
     height: 100%;
 }
-.nav__logo{
-    font-size: 2rem;
-    color: white;
+.nav__logo h1{
+    font-size: 4rem;
 }
 .nav__logo span{
     color: #4fdcff;
@@ -128,9 +127,6 @@ li{
 .subtitulo{
     text-align: center;
     padding: 5%;
-}
-.subtitulo-img{
-    width: 600px;
 }
 @media only screen and (max-width: 700px){
     .carousel-item img{
@@ -344,12 +340,16 @@ li{
 .filter{
     padding: 0 2rem;
     width: 100%;
-    margin: 12rem auto 0 auto;
+    margin: 1rem auto 0 auto;
 }
 .filter .grid{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 30px;
+}
+.grid-img{
+    justify-content: center;
+    align-items: center;
 }
 .filter label{
     font-size: 2.3rem;

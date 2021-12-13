@@ -220,10 +220,7 @@ class UI {
         return buttonDOM.find(button => parseInt(button.dataset.id) === id)
     }
 }
-function compraCarrito(){
-    alert("Será redirigido a MercadoPago");
-    
-}
+
 
 class Storage {
     static saveProduct(obj){

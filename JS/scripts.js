@@ -260,8 +260,10 @@ function categoryValue(){
     if(category.length > 0){
         const producto = productos.filter(regx => regx.category === category)
         ui.renderProductos(producto)
+        ui.getButtons();
     }else{
         ui.renderProductos(productos);
+        ui.getButtons();
     }
 } 
 
